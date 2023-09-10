@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { IAnimal } from "../models/IAnimal";
+import React from "react";
 
 const Animal = () => {
   const { id } = useParams<{ id: string }>();
